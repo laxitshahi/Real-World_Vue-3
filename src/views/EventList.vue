@@ -26,7 +26,6 @@ export default {
       // )
       .then(response => {
         this.events = response.data
-        console.log(response)
       })
       .catch(error => {
         console.log(error)
